@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Agentic Chaos Monkey"
+  short_description: "Plan safe closed-loop resilience experiments"
+  default_prompt: "Use $plan-agentic-chaos-monkey to create an implementation plan for the next Agentic Chaos Monkey milestone."

@@ -1,0 +1,23 @@
+[project]
+name = "agentic-chaos-monkey"
+version = "0.1.0"
+description = "Safe, closed-loop chaos engineering and agentic incident recovery"
+readme = "README.md"
+authors = [
+    { name = "Rajesh Shah", email = "rshahdelhi@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=2.0.0,<3.0.0",
+    "opentelemetry-api>=1.30,<2.0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.30,<2.0",
+    "opentelemetry-sdk>=1.30,<2.0",
+    "streamlit>=1.40,<2.0",
+]
+
+[project.scripts]
+agentic-chaos-monkey = "agentic_chaos_monkey:main"
+
+[build-system]
+requires = ["uv_build>=0.11.26,<0.12.0"]
+build-backend = "uv_build"

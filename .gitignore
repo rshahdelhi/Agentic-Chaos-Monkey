@@ -21,3 +21,14 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Python / uv
+.venv/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example
