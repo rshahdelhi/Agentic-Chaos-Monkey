@@ -7,6 +7,12 @@ agentic system can detect, investigate, govern, remediate, and verify a
 controlled incident. The initial scaffold models the full lifecycle without
 granting agents arbitrary infrastructure access.
 
+## Presentation
+
+[View the editable Agentic Chaos Monkey presentation in Figma Slides](https://www.figma.com/slides/G2UgkQLf482Zjgij640H0n).
+
+See [PRESENTATION.md](PRESENTATION.md) for the deck outline and submission notes.
+
 ## Quick start
 
 ```powershell
